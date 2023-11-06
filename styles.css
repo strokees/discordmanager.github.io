@@ -14,29 +14,19 @@ header {
     text-align: center;
 }
 
-.about-bot,
-.features,
-.get-started {
-    padding: 2rem;
-    background-color: rgba(255, 255, 255, 0.9);
-    margin: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.animated-element {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    transition: all 0.3s ease;
+    margin: 20px auto;
+    border-radius: 50%;
 }
 
-.get-started a {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 1rem 2rem;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 25px;
-    transition: background-color 0.3s ease;
-}
-
-.get-started a:hover {
-    background-color: #555;
+.animated-element:hover {
+    width: 150px;
+    height: 150px;
+    background-color: #e74c3c;
 }
 
 @keyframes gradientAnimation {
@@ -49,19 +39,4 @@ header {
     100% {
         background-position: 0% 50%;
     }
-}
-
-/* Добавьте следующий CSS в ваш файл styles.css */
-
-.animated-element {
-    width: 100px;
-    height: 100px;
-    background-color: #3498db;
-    transition: all 0.3s ease;
-}
-
-.animated-element:hover {
-    width: 150px;
-    height: 150px;
-    background-color: #e74c3c;
 }
