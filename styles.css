@@ -50,3 +50,18 @@ header {
         background-position: 0% 50%;
     }
 }
+
+/* Добавьте следующий CSS в ваш файл styles.css */
+
+.animated-element {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    transition: all 0.3s ease;
+}
+
+.animated-element:hover {
+    width: 150px;
+    height: 150px;
+    background-color: #e74c3c;
+}
